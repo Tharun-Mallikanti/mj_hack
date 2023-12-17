@@ -3,8 +3,6 @@ from roboflow import Roboflow
 import base64
 from PIL import Image, ImageDraw
 from io import BytesIO
-import easyocr
-import cv2
 app = Flask(__name__)
 
 txtbbs = {}
